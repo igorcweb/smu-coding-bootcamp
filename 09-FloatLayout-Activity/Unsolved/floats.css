@@ -1,0 +1,55 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+section {
+  width: 33.33%;
+  float: left;
+  padding: 20px;
+}
+
+#left {
+  background: #666;
+}
+
+#middle {
+  background-color: #888;
+}
+
+#right {
+  background-color: #666;
+}
+
+#full {
+}
+
+#division {
+}
+
+aside {
+}
+
+footer {
+  clear: both;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}

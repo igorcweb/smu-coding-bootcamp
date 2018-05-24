@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dfe3ee;
+}
+
+h1,
+h3.name {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h1,
+h3 {
+  font-weight: 300;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  float: left;
+  margin-right: 3rem;
+  margin-left: 1rem;
+}
+
+a {
+  color: rgb(20, 128, 216);
+}
+
+li {
+  margin: 5px 0;
+}
