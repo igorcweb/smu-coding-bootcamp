@@ -8,48 +8,67 @@
 }
 
 body {
+  font-size: 24px;
 }
 
 header {
   padding: 20px;
-  margin-bottom: 20px;
   color: #333;
   background: #ccc;
 }
 
 section {
-  width: 33.33%;
-  float: left;
   padding: 20px;
+  margin: 20px 0;
 }
 
 #left {
+  color: #fff;
+  width: 33.33%;
   background: #666;
+  float: left;
 }
 
 #middle {
+  color: #fff;
+  width: 33.33%;
   background-color: #888;
+  float: left;
 }
 
 #right {
+  color: #fff;
+  width: 33.33%;
   background-color: #666;
+  float: left;
 }
 
 #full {
+  background-color: #eee;
+  width: 100%;
+  padding: 30px;
+  clear: both;
+  overflow: auto;
 }
 
 #division {
+  background-color: #6ea3da;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 aside {
+  float: left;
+  background-color: #fff;
+  width: 33%;
+  height: 200px;
+  margin-left: 30px;
+  border: 1px solid #eee;
+  padding: 20px;
 }
 
 footer {
   clear: both;
-}
-
-.clearfix::after {
-  content: '';
-  display: block;
-  clear: both;
+  background-color: #ccc;
+  padding: 20px;
 }
