@@ -94,7 +94,8 @@ img.profile {
 div.wrapper {
   flex: 1 0 auto;
   padding: 1rem 0;
-  background-color: #ededed;
+  /* background-color: #ededed; */
+  background-image: url('../images/dust_scratches.png');
   border-top: 2px solid #ccc;
 }
 
