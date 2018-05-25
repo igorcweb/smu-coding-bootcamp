@@ -11,15 +11,16 @@
     * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
     * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`. */
 
-html {
+html,
+body {
   height: 100%;
 }
 
 body {
+  box-sizing: border-box;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777;
-  height: 100vh;
-  display: flex; /* I only used display flex for sticky footer*/
+  display: flex; /* I only used flexbox for sticky footer*/
   flex-direction: column;
 }
 
@@ -51,7 +52,7 @@ nav a {
   text-decoration: none;
   color: #777;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 nav a:hover {
@@ -106,6 +107,7 @@ section {
 
 div.content {
   padding-bottom: 1rem;
+  border: 1px solid #ddd;
 }
 
 div.content p {
@@ -124,4 +126,21 @@ footer p {
   padding: 0.8rem 0;
   background-color: #666;
   color: #fff;
+}
+
+input,
+textarea {
+  width: 97.5%;
+  padding: 0.6rem;
+  outline: none;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  margin-right: 1rem;
+  color: #fff;
+  background-color: #4aaaa5;
+  outline: 0;
 }
