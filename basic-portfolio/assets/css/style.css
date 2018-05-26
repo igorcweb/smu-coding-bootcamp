@@ -22,6 +22,7 @@ body {
   color: #777;
   display: flex; /* I only used flexbox for sticky footer*/
   flex-direction: column;
+  background-image: url('../images/dust_scratches.png');
 }
 
 h1,
@@ -95,12 +96,14 @@ div.wrapper {
   flex: 1 0 auto;
   padding: 1rem 0;
   /* background-color: #ededed; */
-  background-image: url('../images/dust_scratches.png');
+  background-image: url('../images/pattern.jpg');
   border-top: 2px solid #ccc;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section {
-  background-color: #fff;
+  background-image: url('../images/dust_scratches.png');
   clear: both;
   width: 960px;
   margin: 2rem auto;
@@ -144,6 +147,7 @@ button {
   color: #fff;
   background-color: #4aaaa5;
   outline: 0;
+  cursor: pointer;
 }
 
 button:hover {
@@ -170,7 +174,7 @@ h3.image-text {
   text-align: center;
   padding: 5px;
   width: 290px;
-  bottom: -46px;
+  bottom: -45px;
   left: 0;
   background-color: #4aaaa5;
   color: #fff;
